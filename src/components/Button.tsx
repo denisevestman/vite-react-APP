@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function Button() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="card">
+      <div className='card'>
         <button
           onClick={() => setCount((count) => (count < 10 ? count + 1 : count))}
         >
